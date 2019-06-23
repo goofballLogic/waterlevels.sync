@@ -25,7 +25,7 @@ async function mergeDay( provider, [ day, records ] ) {
     // merge the day's data into the data store
     const merged = { ...providerDay, ...records };
     // save
-    await store.putObject( [ provider.name, day ], merged );
+    await store.putObject( [ "providers", provider.name, day ], merged );
     console.log( day, "complete" );
 
 }
