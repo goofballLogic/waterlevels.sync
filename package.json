@@ -1,0 +1,28 @@
+{
+  "name": "waterlevels.sync",
+  "version": "0.0.1",
+  "description": "Harvest waterlevels from different APIs and expose it as a uniform data store",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goofballLogic/waterlevels.sync.git"
+  },
+  "keywords": [
+    "waterlevels"
+  ],
+  "author": "tinycode2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goofballLogic/waterlevels.sync/issues"
+  },
+  "homepage": "https://github.com/goofballLogic/waterlevels.sync#readme",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.480.0",
+    "node-fetch": "^2.6.0"
+  }
+}
