@@ -22,7 +22,7 @@
   "homepage": "https://github.com/goofballLogic/waterlevels.sync#readme",
   "type": "module",
   "dependencies": {
-    "aws-sdk": "^2.480.0",
+    "aws-sdk": "^2.814.0",
     "node-fetch": "^2.6.0"
   }
 }
